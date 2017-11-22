@@ -1,0 +1,65 @@
+Release Notes for EmberMUD v0.9.45
+----------------------------------
+I'm not even going to attempt to count the number of new features,
+changes, and bug fixes that are in v0.9.45 over v0.9.44...  Here 
+is a list of the highlights (this is nowhere near a complete 
+list - as usual, check the Changelog to see everything).
+
+  Socials and Helps can now be edited using OLC.
+
+  who format re-worked to compress the space used by AFK, PK, etc.
+
+  Furniture is now sittable, sleepable, etc.
+
+  Fixed several crash bugs in whois, switch, auctions, factions,
+    jail, wizgrant, clan channel, spouse channel, and other places.
+
+  Portal and Nexus code is in.
+
+  TRACK_IS_SKILL actually works now.
+
+  The OOC and GOSSIP channels can now be renamed.
+
+  Added lots of new configuration options to config.h
+
+  A new 'shell' command is available on Unix systems.  In the
+    default config.h, it is only available at MAX_LEVEL. Please
+    note that it's still considered somewhat unstable and may
+    crash your MUD.
+
+  Fix a bunch of bugs in resets.
+
+... Just do yourself a favor and read through the Changelog. 8-)
+
+PLEASE NOTE!!!!
+
+  If you are upgrading from EmberMUD v0.9.44a, you will need to 
+convert your area files to a new format.  The converter will be
+made available for download from our SourceForge site or on
+www.embermud.org.
+
+----
+
+I'd like to take this opportunity to announce that Dorzak has
+joined the EmberMUD development team!  He has been contributing
+a lot already, and we have plans for him to do much much more.
+
+----
+
+The official EmberMUD homepage has moved...  The company that
+controls the .cx domain has changed and the new company no
+longer wishes to give domains out for free to open source
+projects! <sigh>  The new hompage is:
+
+  http://www.embermud.org
+
+Simple enough, huh?  Please note that our contact e-mail addresses
+have changed as well.  Here's the latest listing.
+
+----
+
+The EmberMUD team:
+
+  Zak            Kevin Williams     zak@embermud.org
+  Zane           EJ Wilburn         zane@embermud.org
+  Dorzak         Nathan Cookson     dorzak@earthlink.net
